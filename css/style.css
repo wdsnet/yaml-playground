@@ -1,0 +1,47 @@
+/* Definindo o estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Título principal */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para o editor */
+#editor {
+    height: 400px;  /* Definindo altura fixa para o editor */
+    width: 100%;    /* O editor ocupará toda a largura disponível */
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para o output */
+pre {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
